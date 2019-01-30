@@ -279,6 +279,48 @@ h4.modal-title {
 	color: #fff;
 }
 
+.iammore-banner {
+    margin: 40px 0 40px 0;
+}
+
+.navbar-default {
+    background: #009bdf;
+    border-color: #009bdf;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.learn-more {
+
+        display: block;
+        width: 200px;
+        background: #fff;
+        border: #4298cc solid 1px;
+        padding: 12px 24px;
+        text-align: center;
+        color: #4298cc;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive */
 @media (max-width: 480px) {
 .mob-hide{
@@ -322,5 +364,8 @@ section.bnrwvideo{
 	margin-left: auto;
 	margin-right: auto;
 }
+        html.sticky-header-active #header .header-body {
+            position: relative;
+        }
 }
 
